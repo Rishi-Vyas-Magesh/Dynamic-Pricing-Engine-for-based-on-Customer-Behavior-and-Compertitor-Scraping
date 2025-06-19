@@ -21,7 +21,7 @@ In this Project, I have built the Underlying Logic and Backend for  Dynamic Pric
 ----->To check particular lead: (Say lead45) - http://127.0.0.1:8000/get-price-existing?user_id=Lead045 
 
 
------>To check New Lead: http://127.0.0.1:8000/get-price-new in PostmanAPI in JSON script
+----->To check price offered for a totally New Lead: http://127.0.0.1:8000/get-price-new in PostmanAPI in JSON script
 Eg) {
     "Viewed_Times": 20,
     "Total_Time_Spent_min": 12,
@@ -30,3 +30,7 @@ Eg) {
     "Num_Sessions": 3,
     "Device_Type": "Mobile"
 }
+
+**IMPROVEMENTS**
+1) I can run this engine and its logic( Scraping + Bandit + Rule based logic) as backend behind a UI made with FLASK or STREAMLIT and only vary the product URL -  This would work for any product on Flip-kart.
+2) There are many things variable here: Probability weights, prices offered, Rules in the Rule based system etc to suit application needs.
