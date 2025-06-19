@@ -1,6 +1,10 @@
 **# Dynamic-Pricing-Engine-for-based-on-Customer-Behavior-and-Compertitor-Scraping**
 In this Project, I have built the Underlying Logic and Backend for  Dynamic Pricing Engine which takes into consideration User Interaction data with an E-commerce site, compares competitor price and optimises the price offered for the same product by me.
 
+**Find all the resources, API code, Jupyter notebook code, datasets etc needed to verify and check functioning of project.**
+
+**Contact me in case of any queries** via LinkedIN
+
 **Project Sequence and Description**
 1) I have assumed to have a Ecommerce platform and I sell a variety of products. My aim is to outsell my competition at every juncture and so I have build a Dynamic pricing engine which will offer customers a good price unique to them based on their behaviour and intrest level I gauge in the product and competitor Pricing for it.
 2) Weights associated with P(Purchase) equation and function is assumed and can be altered.
